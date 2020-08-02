@@ -4,6 +4,11 @@
   src: url(fonts/Proxima-Nova-Alt-Bold.otf);
 }
 @font-face {
+  font-family:habiya;
+  src: url(fonts/Proxima-Nova-Bold.otf);
+}
+
+@font-face {
   font-family:khilari;
   src: url(fonts/ProximaNova-Regular.otf);
 }
@@ -16,6 +21,7 @@
  .header .header-left{
    width:20%;
    float: left;
+   margin-top:10px;
  }
  .header .header-right{
    float:left;
@@ -23,20 +29,66 @@
  }
  .header .header-right ul{
    margin-left:527px;
-   margin-top:20px;
+   margin-top:32px;
  }
  .header .header-right ul li:nth-child(1) a{
    color: #21d0b6;
    font-family:anari;
+   font-weight:400;
  }
  .header .header-right ul li{
    display: inline-block;
    font-family:khilari;
+   margin-right:20px;
+   font-weight:700;
+
 
  }
 
 
  .header .header-right ul li a{
-   color:#6a6c71;
+   color:#63656b;
  }
+  .header .header-right ul li:nth-child(6) a{
+    border:1px solid #63656b;
+    padding:5px 15px;
+    border-radius:5px;
+  }
+  .header .header-right ul li:nth-child(2) a i{
+    margin-right:5px;
+  }
 /* header div ends here */
+/* slider div ends here */
+  .slider{
+    height:500px;
+    background:linear-gradient(#eef2f5,#b2b5b7);
+    position: relative;
+    overflow: hidden;
+  }
+  .slider::after{
+    content:'';
+    width:0px;
+    height:0px;
+    border-top:110px solid transparent;
+    border-bottom:300px solid #2e6a3c;
+    border-left:800px solid transparent;
+    border-right:300px solid #2e6a3c;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+
+  }
+  .mid{
+    width:80%;
+    margin: auto;
+  }
+  .slider .slider-left h1{
+    font-family:anari;
+    font-weight:normal;
+    color:#222325;
+    width:55%;
+    float: left;
+    font-size:35px;
+  }
+
+/* slider div starts here */
