@@ -69,13 +69,13 @@
 
   .slider .bgi{
     position:absolute;
-    top:0px;
+    top:2px;
     left:188px;
   }
   .slider .bgi-people{
     position:absolute;
-    bottom:0px;
-    right:0px;
+    bottom:1px;
+    right:54px;
   }
 
   .mid{
@@ -149,6 +149,32 @@
 }
 .slider .slider-left ul li:nth-child(1){
   color:#62646A;
+}
+.slider .slider-right ul li{
+  display: inline-block;
+
+
+}
+.slider .slider-right ul{
+  bottom:39px;
+  right:243px;
+  position: absolute;
+}
+.slider .slider-right ul li i{
+  color: #FFC100;
+  font-size:14px;
+
+}
+.slider .slider-right h6{
+  bottom:21px;
+  right:153px;
+  position: absolute;
+  color:#fff;
+  font-family:anari;
+  font-size:13px;
+}
+.slider .slider-right h6 span{
+  font-family:khilari ;
 }
 
 /* slider div starts here */
