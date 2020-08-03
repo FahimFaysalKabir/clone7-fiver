@@ -1,4 +1,3 @@
-
 @font-face {
   font-family:anari;
   src: url(fonts/Proxima-Nova-Alt-Bold.otf);
@@ -64,20 +63,21 @@
     background:linear-gradient(#eef2f5,#b2b5b7);
     position: relative;
     overflow: hidden;
-  }
-  .slider::after{
-    content:'';
-    width:0px;
-    height:0px;
-    border-top:110px solid transparent;
-    border-bottom:300px solid #2e6a3c;
-    border-left:800px solid transparent;
-    border-right:300px solid #2e6a3c;
-    position:absolute;
-    right:0px;
-    bottom:0px;
+
 
   }
+
+  .slider .bgi{
+    position:absolute;
+    top:0px;
+    left:188px;
+  }
+  .slider .bgi-people{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+  }
+
   .mid{
     width:80%;
     margin: auto;
@@ -90,5 +90,71 @@
     float: left;
     font-size:35px;
   }
+  .slider .slider-left{
+    position: relative;
+
+  }
+.slider .slider-left input[type="text"]{
+
+  box-sizing: border-box;
+  position:absolute;
+  top:128px;
+  left:0px;
+  padding:15px 155px;
+  border:1px solid #DDDDDD;
+
+}
+.slider .slider-left input[type="submit"]{
+  color:#fff;
+  background-color:#1DBF73;
+  position:absolute;
+  top:128px;
+  left:468px;
+  padding:15px 25px;
+  font-family:anari;
+  border:1px solid transparent;
+  border-top-right-radius:3px;
+  border-bottom-right-radius:3px;
+}
+.slider .slider-left form i{
+  color:#999999;
+  position: absolute;
+  top:145px;
+  left:16px;
+}
+.slider .slider-left input[type="text"]::placeholder{
+  color:#9B9AA0;
+  font-family:khilari;
+  font-size:15px;
+  text-align:right;
+}
+.slider .slider-left ul li{
+  display: inline-block;
+  font-family:khilari;
+  font-size:15px;
+  margin:0px 5px;
+}
+.slider .slider-left  ul li a{
+  color: #62646A;
+  border:1px solid #B5B6BA;
+  padding:2px 5px;
+  border-radius:5px;
+}
+
+.slider .slider-left ul{
+  position: absolute;
+  top:200px;
+  left:0px;
+  overflow: hidden;
+}
+.slider .slider-left ul li:nth-child(1){
+  color:#62646A;
+}
 
 /* slider div starts here */
+.next{
+  overflow:hidden;
+  height:300px;
+  background-color:orange;
+
+}
