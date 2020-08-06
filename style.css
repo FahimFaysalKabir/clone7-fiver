@@ -193,15 +193,156 @@
 .clients ul{
   width:80%;
   margin: auto;
+
 }
 .clients ul li{
   display: inline-block;
   margin-right:50px;
 }
 /* clients div ends here */
+/* services div starts here */
 .services{
-  margin-top:50px;
+  margin-top:100px;
+  position: relative;
+  margin-bottom:100px;
+}
+.services .matha{
+  font-family:khilari;
+  font-size:28px;
+  margin-left:31px;
 }
 .services ul li{
   display: inline-block;
 }
+.services ul li:nth-child(1){
+  margin-left:30px;
+}
+.services ul li:hover a img{
+  opacity: 0.8;
+  transition:0.1s;
+}
+.services ul li a img{
+  width:90%;
+
+  margin-right:10px;
+
+}
+.services ul li a{
+  display: block;
+}
+.services ul li a h3{
+  position: absolute;
+  top:22px;
+  left:18px;
+  font-family:khilari;
+  color: #fff;
+  font-size:14px;
+  font-weight:400;
+}
+.services ul li a h1{
+  position: absolute;
+  top:30px;
+  left:18px;
+  font-family:khilari;
+  color: #fff;
+  font-size:22px;
+}
+.services ul li a{
+  position: relative;
+}
+.car-left{
+  width:50px;
+  height:50px;
+  background-color:#fff;
+  border-radius:50%;
+  position: absolute;
+  top:126px;
+  left:-25px;
+  box-shadow:inset 0 0 5px #dcdcdc;
+}
+.car-left i{
+  color: #959595;
+  text-align: center;
+  font-size:25px;
+  margin-top:13px;
+  margin-left:18px;
+}
+.car-right{
+  width:50px;
+  height:50px;
+  background-color:#fff;
+  border-radius:50%;
+  position: absolute;
+  top:126px;
+  right:0px;
+  box-shadow:inset 0 0 5px #dcdcdc;
+}
+.car-right i{
+  color: #959595;
+  text-align: center;
+  font-size:25px;
+  margin-top:13px;
+  margin-left:18px;
+}
+/* services div ends here */
+/* video div starts here */
+ .video{
+   margin-left:30px;
+ }
+ .video-left{
+   width:50%;
+   float: left;
+ }
+ .video-right{
+   width:50%;
+   float: left;
+ }
+ .video-left h1{
+   font-family:khilari;
+   font-size:26px;
+   color: #222325;
+   font-weight:700;
+
+ }
+ .video-left h3{
+   font-family:khilari;
+   display: block;
+   float: left;
+   width:95%;
+}
+ .video-left p{
+   font-family:khilari;
+   font-weight:400;
+   color: #62777C;
+   width:80%;
+   padding:30px 0px;
+
+
+}
+  .video-left i{
+    color: #1DBF73;
+    width:5%;
+    float: left;
+}
+.video-left .vl1{
+  padding-top:20px;
+}
+.video-left .vl1,.vl2,.vl3{
+  margin-top:20px;
+}
+.video-right{
+  position: relative;
+}
+.video-right img{
+
+  margin-left:-59px;
+
+}
+.video-right a i{
+  font-size:70px;
+  position: absolute;
+  top:200px;
+  left:258px;
+  color: #2F261E;
+}
+/* video div ends here */
