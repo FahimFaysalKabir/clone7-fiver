@@ -57,7 +57,7 @@
     margin-right:5px;
   }
 /* header div ends here */
-/* slider div ends here */
+/* slider div starts here */
   .slider{
     height:500px;
     background:linear-gradient(#eef2f5,#b2b5b7);
@@ -133,19 +133,25 @@
   font-family:khilari;
   font-size:15px;
   margin:0px 5px;
+
+
+
 }
 .slider .slider-left  ul li a{
   color: #62646A;
-  border:1px solid #B5B6BA;
+  border:1px solid #BEBFC3;
   padding:2px 5px;
+  display: block;
   border-radius:5px;
 }
-
+.slider .slider-left  ul li:hover a{
+  background-color:#c5c6c9;
+}
 .slider .slider-left ul{
   position: absolute;
   top:200px;
   left:0px;
-  overflow: hidden;
+  overflow:hidden;
 }
 .slider .slider-left ul li:nth-child(1){
   color:#62646A;
@@ -177,10 +183,25 @@
   font-family:khilari ;
 }
 
-/* slider div starts here */
-.next{
-  overflow:hidden;
-  height:300px;
-  background-color:orange;
+/* slider div ends here */
+/* clients div starts here */
+.clients{
+  height:70px;
 
+  box-shadow:inset 0 0 10px #dcdcdc;
+}
+.clients ul{
+  width:80%;
+  margin: auto;
+}
+.clients ul li{
+  display: inline-block;
+  margin-right:50px;
+}
+/* clients div ends here */
+.services{
+  margin-top:50px;
+}
+.services ul li{
+  display: inline-block;
 }
