@@ -297,7 +297,7 @@
    width:50%;
    float: left;
  }
- .video-left h1{
+ .video-left h2{
    font-family:khilari;
    font-size:26px;
    color: #222325;
@@ -346,3 +346,93 @@
   color: #2F261E;
 }
 /* video div ends here */
+.marketplace ul{
+ margin-left:100px;
+}
+.marketplace ul li{
+  display: inline-block;
+}
+.marketplace ul li hr{
+  width:20%;
+  margin-left:10px;
+  transition:0.5s;
+
+  border-top:none;
+  border:1.5px solid #C5C6C9;
+
+}
+.marketplace ul li:hover hr{
+  transform: scale(1.5);
+
+  border:1.5px solid #1DBF73;
+
+}
+.marketplace-top ul li{
+  width:20%;
+  padding:0px 25px;
+
+}
+.marketplace-top ul li img{
+  margin-left:81px;
+}
+
+.marketplace-bottom ul{
+  margin-top:100px;
+}
+.marketplace-bottom ul li{
+  width:20%;
+  padding:0px 25px;
+}
+.marketplace ul li h6{
+  font-family:khilari;
+  color:#898A8B;
+  font-size:18px;
+  font-weight:normal;
+  text-align: center;
+}
+.marketplace-bottom ul li img{
+  margin-left:81px;
+}
+.marketplace-bottom ul li hr{
+  margin-left:97px;
+}
+.marketplace-top ul li hr{
+  margin-left:97px;
+}
+.marketplace-top ul li:nth-child(1) img{
+  margin-left:94px;
+}
+.marketplace-top ul li:nth-child(2) img{
+  margin-left:82px;
+}
+.marketplace-top ul li:nth-child(3) img{
+  margin-left:91px;
+}
+.marketplace-top ul li:nth-child(4) img{
+  margin-left:95px;
+}
+.marketplace-bottom ul li:nth-child(1) img{
+  margin-left:93px;
+}
+.marketplace-bottom ul li:nth-child(2) img{
+  margin-left:95px;
+}
+.marketplace-bottom ul li:nth-child(3) img{
+  margin-left:83px;
+}
+.marketplace-bottom ul li:nth-child(4) img{
+  margin-left:88px;
+}
+.marketplace h2{
+  font-family:khilari;
+  font-size:26px;
+  color: #222325;
+  font-weight:700;
+  margin-left:27px;
+  padding-bottom:80px;
+
+}
+.marketplace{
+  margin-top:703px;
+  margin-bottom:120px;
+}
