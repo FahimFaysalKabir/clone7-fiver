@@ -430,9 +430,207 @@
   font-weight:700;
   margin-left:27px;
   padding-bottom:80px;
-
 }
 .marketplace{
   margin-top:703px;
   margin-bottom:120px;
 }
+/* marketplace div ends here */
+/* inspiration div starts here */
+ .inspiration{
+   margin-left:50px;
+   margin-bottom:500px;
+   position: relative;
+
+ }
+ .inspiration ul li{
+   display: inline-block;
+ }
+
+ .inspiration .ins1,.ins2,.ins3,.ins4{
+   width:280px;
+   height:300px;
+
+   float: left;
+   margin-right:30px;
+
+   border-radius:5px;
+   box-shadow:inset 0 0 5px #dcdcdc;
+ }
+.inspiration .ins1-top,.ins2-top,.ins3-top,.ins4-top{
+  width:280px;
+  height:230px;
+  overflow: hidden;
+
+
+}
+.inspiration .ins1-top a:hover img{
+  opacity: 0.8;
+}
+.inspiration .ins2-top a:hover img{
+  opacity: 0.8;
+}
+.inspiration .ins3-top a:hover img{
+  opacity: 0.8;
+}
+.inspiration .ins4-top a:hover img{
+  opacity: 0.8;
+}
+
+.ins1-bottom-left{
+  width:25%;
+
+  float: left;
+
+}
+.ins1-bottom-right{
+  width:75%;
+
+  float: left;
+
+}
+.ins2-bottom-left{
+  width:25%;
+
+  float: left;
+
+}
+.ins2-bottom-right{
+  width:75%;
+
+  float: left;
+
+}
+.ins3-bottom-left{
+  width:25%;
+
+  float: left;
+
+}
+.ins3-bottom-right{
+  width:75%;
+
+  float: left;
+
+}
+.ins4-bottom-left{
+  width:25%;
+
+  float: left;
+
+}
+.ins4-bottom-right{
+  width:75%;
+
+  float: left;
+
+}
+.circle1{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  background-color:blue;
+  background-image: url(images/c1.jpg);
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+  margin-left:20px;
+  margin-top:15px;
+}
+.circle2{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  background-color:blue;
+  background-image: url(images/c2.jpg);
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+  margin-left:20px;
+  margin-top:15px;
+
+}
+.circle3{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  background-color:blue;
+  background-image: url(images/c3.jpg);
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+  margin-left:20px;
+  margin-top:15px;
+
+}
+.circle4{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  background-color:blue;
+  background-image: url(images/c4.jpg);
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-size:cover;
+  margin-left:20px;
+  margin-top:15px;
+
+}
+.inspiration h5{
+  font-family:khilari;
+  font-size:16px;
+  margin-top:15px;
+  margin-left:5px;
+  color: #3C3D3F;
+}
+.inspiration h6{
+  font-family:khilari;
+  font-size:13px;
+  font-weight:normal;
+  margin-left:5px;
+  color: #7A7B7C;
+}
+.car-right2{
+  width:50px;
+  height:50px;
+  background-color:#fff;
+  border-radius:50%;
+  position: absolute;
+  top:221px;
+  right:62px;
+  box-shadow:inset 0 0 5px #dcdcdc;
+}
+.car-right2 i{
+  color: #959595;
+  text-align: center;
+  font-size:25px;
+  margin-top:13px;
+  margin-left:18px;
+}
+.inspiration h2{
+  font-family:khilari;
+  font-size:26px;
+  color: #222325;
+  font-weight:700;
+  margin-left:4px;
+  padding-bottom:80px;
+  
+}
+.car-left2{
+  width:50px;
+  height:50px;
+  background-color:#fff;
+  border-radius:50%;
+  position: absolute;
+  top:221px;
+  left:-25px;
+  box-shadow:inset 0 0 5px #dcdcdc;
+}
+.car-left2 i{
+  color: #959595;
+  text-align: center;
+  font-size:25px;
+  margin-top:13px;
+  margin-left:18px;
+}
+/* inspiration div ends here */
