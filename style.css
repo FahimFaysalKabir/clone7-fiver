@@ -11,6 +11,11 @@
   font-family:khilari;
   src: url(fonts/ProximaNova-Regular.otf);
 }
+@font-face {
+  font-family:george;
+  src: url(fonts/Georgia.ttf);
+}
+
 
 /* header div starts here */
  .header{
@@ -439,12 +444,9 @@
 /* inspiration div starts here */
  .inspiration{
    margin-left:50px;
-   margin-bottom:500px;
+
    position: relative;
 
- }
- .inspiration ul li{
-   display: inline-block;
  }
 
  .inspiration .ins1,.ins2,.ins3,.ins4{
@@ -466,6 +468,7 @@
 }
 .inspiration .ins1-top a:hover img{
   opacity: 0.8;
+
 }
 .inspiration .ins2-top a:hover img{
   opacity: 0.8;
@@ -614,7 +617,7 @@
   font-weight:700;
   margin-left:4px;
   padding-bottom:80px;
-  
+
 }
 .car-left2{
   width:50px;
@@ -634,3 +637,262 @@
   margin-left:18px;
 }
 /* inspiration div ends here */
+/* testimonial div starts here */
+.testimonial{
+  height:404px;
+  margin-top:430px;
+  margin-left:30px;
+  margin-right:30px;
+
+  box-shadow:inset 0 0 5px #dcdcdc;
+}
+.test-left{
+  width:50%;
+  float: left;
+  position: relative;
+}
+.test-right{
+  width:50%;
+  float: left;
+  position: relative;
+}
+.test-right h2{
+  font-family:george;
+  color:#8A8C90;
+  font-weight:400;
+  font-size:18px;
+  width:70%;
+  margin-top:80px;
+  line-height:30px;
+}
+.test-right h6{
+  font-family:khilari;
+  color: #62646a;
+  font-weight:400;
+  font-size:16px;
+  padding-top:30px;
+  padding-bottom:10px;
+}
+.test-right img{
+  width:20%;
+}
+.car-left3{
+  width:50px;
+  height:50px;
+  background-color:#fff;
+  border-radius:50%;
+  position: absolute;
+  top:171px;
+  left:-25px;
+  box-shadow:inset 0 0 5px #dcdcdc;
+}
+.car-left3 i{
+  color: #959595;
+  text-align: center;
+  font-size:25px;
+  margin-top:13px;
+  margin-left:18px;
+}
+.car-right3{
+  width:50px;
+  height:50px;
+  background-color:#fff;
+  border-radius:50%;
+  position: absolute;
+  top:171px;
+  right:-24px;
+  box-shadow:inset 0 0 5px #dcdcdc;
+}
+.car-right3 i{
+  color: #959595;
+  text-align: center;
+  font-size:25px;
+  margin-top:13px;
+  margin-left:18px;
+}
+.testimonial .test-left .fa-play-circle {
+  position: absolute;
+  left:275px;
+  top:157px;
+  font-size:60px;
+  color:#fff;
+}
+
+/* testimonial div ends here */
+/* banner div starts here */
+.pro{
+  height:300px;
+  background-image:url(images/pro_banner.jpg);
+  background-position: center center;
+  margin:100px 30px;
+}
+.pro-left{
+  width:50%;
+  float: left;
+}
+.pro-left-sticker{
+  width:50%;
+}
+.pro-left-sticker .pls1{
+  width:50%;
+  float: left;
+}
+.pro-left-sticker .pls1 h6{
+  color: #fff;
+  margin-top:70px;
+  margin-left:80px;
+  font-family:khilari;
+  font-weight:normal;
+  font-size:16px;
+}
+.pro-left-sticker .pls2{
+  width:50%;
+  float: left;
+}
+.pro-left-sticker .pls2 img{
+  width:70%;
+  margin-top:64px;
+  margin-left:-51px;
+}
+.pro-left h3{
+  color: #fff;
+  font-family:khilari;
+  font-weight:400;
+  font-size:28px;
+  margin-top:110px;
+  margin-left: 80px;
+}
+.button{
+  margin-top:40px;
+}
+.button a{
+  padding:10px 30px;
+  color: #029F8B;
+  border:2px solid #029F8B;
+  margin-top:50px;
+  margin-left:80px;
+  font-family:khilari;
+  border-radius:5px;
+  font-size:16px;
+}
+.button a:hover {
+  color: #fff;
+  background-color: #029F8B;
+}
+/* banner div ends here */
+/* business div starts here */
+.business{
+  margin-left:30px;
+  padding-bottom:550px;
+  padding-top:50px;
+}
+.business-left{
+  width:50%;
+  float: left;
+}
+.business-right{
+  width:50%;
+  float: left;
+}
+.business-left h2{
+  font-family:khilari;
+  font-size:26px;
+  color: #222325;
+  font-weight:700;
+
+}
+.business-left h3{
+  font-family:khilari;
+  display: block;
+  float: left;
+  width:95%;
+}
+.business-left p{
+  font-family:khilari;
+  font-weight:400;
+  color: #62777C;
+  width:80%;
+  padding:30px 0px;
+
+
+}
+ .business-left i{
+   color: #1DBF73;
+   width:5%;
+   float: left;
+}
+.business-left .bl1{
+ padding-top:20px;
+}
+.business-left .bl1,.bl2,.bl3{
+ margin-top:20px;
+}
+.business-right{
+  position: relative;
+}
+.business-right img{
+
+  margin-left:-59px;
+
+}
+.business-right a i{
+  font-size:70px;
+  position: absolute;
+  top:200px;
+  left:258px;
+  color: #2F261E;
+}
+.business-right img{
+  margin-top:-20px;
+  margin-left:-30px;
+  width:90%;
+}
+/* business div ends here */
+/* guide div starts here */
+.guides{
+  margin-left:50px;
+  margin-bottom:400px;
+
+
+}
+.guides h2{
+  font-family:anari;
+  color: #222325;
+  font-weight:normal;
+  font-size:25px;
+  margin-bottom:30px;
+}
+
+.guides .guide1,.guide2,.guide3{
+   width:400px;
+  float: left;
+  margin-right:20px;
+}
+.guides .guide1-top,.guide2-top,.guide3-top{
+width:400px;
+overflow: hidden;
+border-radius:5px;
+}
+.guides a h5{
+  color:#222325;
+  font-family:khilari;
+  font-size:18px;
+  margin-top:20px;
+  margin-bottom:8px;
+}
+.guides a h6{
+  color:#667C93;
+  font-family:khilari;
+  font-size:15px;
+  font-weight:normal;
+}
+.guides .guide1-top a:hover img{
+  opacity:0.8;
+}
+.guides .guide2-top a:hover img{
+  opacity:0.8;
+}
+.guides .guide3-top a:hover img{
+  opacity:0.8;
+}
+/* guide div ends here */
